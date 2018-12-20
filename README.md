@@ -1,2 +1,3 @@
-# Allocation-Policy-Comperison
-An Empirical Comparison of Allocation Policies
+# An Empirical Comparison of Allocation Policies
+
+This paper documents an empirical comparison of three different allocation algorithms for distributed systems. This is achieved with the use of the DGSim simulator developed by the Vrije Universiteit, where we vary cluster size and workload across experiments for each allocation algorithm. From the experiments we obtain the metrics of average makespan, task throughput and completion time. After obtaining the results of our experiments, we interpret these metrics to formulate specific observations which we explain in light of the nature of the algorithms and the input we fed them. With this material we are able recommend particular algorithms for different circumstances, answering our research question: *How do different allocation policies compare when using different workloads with varying cluster sizes?*
